@@ -64,16 +64,9 @@ color: #ccc;
 }
 
 /* ===== MU CONFIDENCE COLORS (you'll toggle via JS later) ===== */
-.character.good img {
-outline: 3px solid #00ff88;
-}
-
-.character.even img {
-outline: 3px solid #ffd000;
-}
-
-.character.bad img {
-outline: 3px solid #ff3b3b;
+.character img {
+  outline: 3px solid transparent;
+  transition: outline 0.2s ease;
 }
 
 /* MODAL BACKGROUND */
