@@ -1,55 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Matchup Page</title>
-  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
 </head>
-<body>
 
+<body>
   <main class="matchup-page">
     <a href="index.html" class="back-button">← Back to MU Chart</a>
 
-    <h1 id="character-name"></h1>
+    <section class="hero-card">
+      <p class="eyebrow">Pokémon Trainer Matchup</p>
+      <h1 id="character-name">Character</h1>
+      <div id="score-badge" class="score-badge">Score</div>
+    </section>
 
-    <section class="summary-card">
-      <h2>Matchup Summary</h2>
+    <section class="content-card">
+      <h2>🧠 Matchup Summary</h2>
       <p id="summary"></p>
     </section>
 
-    <section class="hitbox-card">
-      <h2>Hitboxes / Key Moves</h2>
-      <img id="hitbox-image" src="" alt="">
+    <section class="content-card">
+      <h2>🎯 Hitboxes / Key Moves</h2>
+      <img id="hitbox-image" class="hitbox-image" src="" alt="" />
     </section>
 
-    <section class="pokemon-notes">
-      <article>
-        <h2>Squirtle</h2>
-        <h3>Neutral</h3>
+    <section class="pokemon-grid">
+      <article class="pokemon-card squirtle-card">
+        <h2>💧 Squirtle</h2>
+
+        <h3 class="neutral-title">Neutral</h3>
         <p id="squirtle-neutral"></p>
-        <h3>Advantage</h3>
+
+        <h3 class="advantage-title">Advantage</h3>
         <p id="squirtle-advantage"></p>
-        <h3>Disadvantage</h3>
+
+        <h3 class="disadvantage-title">Disadvantage</h3>
         <p id="squirtle-disadvantage"></p>
       </article>
 
-      <article>
-        <h2>Ivysaur</h2>
-        <h3>Neutral</h3>
+      <article class="pokemon-card ivysaur-card">
+        <h2>🌿 Ivysaur</h2>
+
+        <h3 class="neutral-title">Neutral</h3>
         <p id="ivysaur-neutral"></p>
-        <h3>Advantage</h3>
+
+        <h3 class="advantage-title">Advantage</h3>
         <p id="ivysaur-advantage"></p>
-        <h3>Disadvantage</h3>
+
+        <h3 class="disadvantage-title">Disadvantage</h3>
         <p id="ivysaur-disadvantage"></p>
       </article>
 
-      <article>
-        <h2>Charizard</h2>
-        <h3>Neutral</h3>
+      <article class="pokemon-card charizard-card">
+        <h2>🔥 Charizard</h2>
+
+        <h3 class="neutral-title">Neutral</h3>
         <p id="charizard-neutral"></p>
-        <h3>Advantage</h3>
+
+        <h3 class="advantage-title">Advantage</h3>
         <p id="charizard-advantage"></p>
-        <h3>Disadvantage</h3>
+
+        <h3 class="disadvantage-title">Disadvantage</h3>
         <p id="charizard-disadvantage"></p>
       </article>
     </section>

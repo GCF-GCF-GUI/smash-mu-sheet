@@ -132,3 +132,151 @@ grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
 font-size: 12px;
 }
 }
+
+body {
+  background:
+    radial-gradient(circle at top, rgba(132, 0, 255, 0.25), transparent 35%),
+    #0b0b10;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.matchup-page {
+  width: min(1100px, 92%);
+  margin: 0 auto;
+  padding: 32px 0 64px;
+}
+
+.back-button {
+  display: inline-block;
+  margin-bottom: 24px;
+  color: #c084fc;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.back-button:hover {
+  color: #ffffff;
+}
+
+.hero-card,
+.content-card,
+.pokemon-card {
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 22px;
+  padding: 28px;
+  margin-bottom: 24px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
+}
+
+.hero-card {
+  text-align: center;
+  border-top: 4px solid #a855f7;
+}
+
+.eyebrow {
+  margin: 0;
+  color: #c084fc;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.hero-card h1 {
+  margin: 8px 0 16px;
+  font-size: 56px;
+  line-height: 1;
+}
+
+.score-badge {
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 999px;
+  background: #a855f7;
+  font-weight: 800;
+}
+
+.content-card h2,
+.pokemon-card h2 {
+  margin-top: 0;
+  margin-bottom: 14px;
+  font-size: 28px;
+}
+
+.content-card p,
+.pokemon-card p {
+  color: #e5e7eb;
+  font-size: 17px;
+  line-height: 1.65;
+  margin-top: 6px;
+  margin-bottom: 20px;
+}
+
+.hitbox-image {
+  display: block;
+  max-width: 100%;
+  max-height: 520px;
+  margin: 18px auto 0;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.pokemon-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+
+.pokemon-card h2 {
+  font-size: 32px;
+}
+
+.pokemon-card h3 {
+  display: inline-block;
+  margin: 18px 0 4px;
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.neutral-title {
+  background: rgba(59, 130, 246, 0.2);
+  color: #93c5fd;
+}
+
+.advantage-title {
+  background: rgba(34, 197, 94, 0.2);
+  color: #86efac;
+}
+
+.disadvantage-title {
+  background: rgba(239, 68, 68, 0.2);
+  color: #fca5a5;
+}
+
+.squirtle-card {
+  border-left: 5px solid #38bdf8;
+}
+
+.ivysaur-card {
+  border-left: 5px solid #22c55e;
+}
+
+.charizard-card {
+  border-left: 5px solid #f97316;
+}
+
+@media (min-width: 900px) {
+  .pokemon-grid {
+    grid-template-columns: repeat(3, 1fr);
+    align-items: start;
+  }
+
+  .pokemon-card {
+    height: 100%;
+  }
+}
