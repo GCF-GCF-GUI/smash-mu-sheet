@@ -142,6 +142,7 @@ const data = {
   byleth: createEmptyMatchup("Byleth", 6),
   "min-min": {
     ...createEmptyMatchup("Min Min", 5),
+    summary: "Always, always, ALWAYS pay close attention to Ramram's hitbox, including its vertical reach.",
     winCondition: "Always, always avoid Ivysaur in neutral and disadvantage. Favor Squirtle in those situations and look to win through his offstage pressure.",
     squirtle: {
       neutral: "",
