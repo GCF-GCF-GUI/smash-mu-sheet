@@ -4,6 +4,7 @@ function createEmptyMatchup(name, score = 5) {
     score,
 
     summary: "",
+    winCondition: "",
     hitboxImage: `images/hitboxes/${name.toLowerCase().replaceAll(" ", "-")}.png`,
 
     squirtle: { neutral: "", advantage: "", disadvantage: "" },
@@ -54,7 +55,21 @@ const data = {
   "dark-pit": createEmptyMatchup("Dark Pit", 6),
   "zero-suit-samus": createEmptyMatchup("Zero Suit Samus", 6),
   wario: createEmptyMatchup("Wario", 7),
-  snake: createEmptyMatchup("Snake", 7),
+  snake: {
+    ...createEmptyMatchup("Snake", 7),
+    summary: "Avoid using Squirtle. Only partially charge Water Gun at the start, then play Ivysaur as much as possible.",
+    winCondition: "Use Ivysaur the most. Only partially charge Water Gun with Squirtle at the start, then switch to Ivysaur. Gather information on Snake's attacks and air dodges after Up B to extend advantage. With Charizard, look for the grenade-in-hand up throw cheese described in the advantage notes.",
+    ivysaur: {
+      neutral: "",
+      advantage: "It is very important to gather information on what Snake does after Up B: he may attack or choose a defensive option such as an air dodge.",
+      disadvantage: ""
+    },
+    charizard: {
+      neutral: "",
+      advantage: "You can always go for cheese while holding a grenade: Charizard's up throw kills at 0%.",
+      disadvantage: ""
+    }
+  },
   ike: createEmptyMatchup("Ike", 4),
   "pokemon-trainer": createEmptyMatchup("Pokemon Trainer", 8),
   squirtle: createEmptyMatchup("Squirtle", 8),
@@ -71,6 +86,7 @@ const data = {
   ...createEmptyMatchup("ROB", 2),
 
   summary: "Hard Matchup, but not unwinnable. Avoid losing neutral while horizontal, but don't stress when you're hit. Remember, you need to play like a 'Luigi' that is turtling. You must slowly approach, and when you do, extend advantage as far as you can. Use the best offstage and the best ledgetraps.",
+  winCondition: "Favor Squirtle for patient neutral: approach slowly, frustrate ROB and punish overextensions. Learn his Nair timing and turn each opening into extended advantage and offstage pressure. Use Ivysaur to keep advantage going and look for kills; use Charizard to keep ROB at the ledge with Flamethrower and bait his escape options to close stocks. Keep Charizard's neutral to short, safe bursts rather than extended projectile exchanges.",
 
   squirtle: {
     neutral: "Turtle mode or crazy verticality both work. Start with one and gather info. Turtle is supposed to frustrate him and catch gyros with ftilt. Crazy verticality is supposed to overwhelm OR punish hard when he decides to go into offense. Be careful cause he can go beneath you when you are vertical. Plats are important to save you.",
