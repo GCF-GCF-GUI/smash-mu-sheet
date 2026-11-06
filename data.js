@@ -5,6 +5,7 @@ function createEmptyMatchup(name, score = 5) {
 
     summary: "",
     winCondition: "",
+    stagePicks: "",
     hitboxImage: `images/hitboxes/${name.toLowerCase().replaceAll(" ", "-")}.png`,
 
     squirtle: { neutral: "", advantage: "", disadvantage: "" },
@@ -32,11 +33,46 @@ const data = {
   luigi: createEmptyMatchup("Luigi", 7),
   ness: createEmptyMatchup("Ness", 7),
   "captain-falcon": createEmptyMatchup("Captain Falcon", 7),
-  jigglypuff: createEmptyMatchup("Jigglypuff", 8),
+  jigglypuff: {
+    ...createEmptyMatchup("Jigglypuff", 8),
+    summary: "Ivysaur is broken in this matchup, and Squirtle's Water Gun is broken too.",
+    winCondition: "Remember: Jigglypuff is super light, so start looking for kills very early. Favor Ivysaur. Always cover Jigglypuff's approach preemptively and watch how they react. Start the match with Squirtle, charge Water Gun and use it: catching Jigglypuff's Side B sends them very far away. In disadvantage and around the ledge, use lots and lots of tether cancels with Ivysaur.",
+    stagePicks: "Jigglypuff likes Smashville, but we can pick it too as long as we are not getting edgeguarded.",
+    squirtle: {
+      neutral: "Start the match with Squirtle: charge Water Gun and use it to catch Jigglypuff's Side B and send them very far away.",
+      advantage: "Water Gun is broken in this matchup. If it catches Jigglypuff's Side B, it sends them very far away.",
+      disadvantage: ""
+    },
+    ivysaur: {
+      neutral: "Ivysaur is broken here. Always cover Jigglypuff's approach preemptively and watch how they react.",
+      advantage: "",
+      disadvantage: "At the ledge, use lots, lots, LOTS of tether cancels."
+    }
+  },
   peach: createEmptyMatchup("Peach", 6),
   daisy: createEmptyMatchup("Daisy", 6),
   bowser: createEmptyMatchup("Bowser", 7),
-  "ice-climbers": createEmptyMatchup("Ice Climbers", 3),
+  "ice-climbers": {
+    ...createEmptyMatchup("Ice Climbers", 3),
+    stagePicks: "Avoid Final Destination (FD): it does not work in this matchup either. Among the remaining stages, always pick the longest available and maximize the distance from Ice Climbers. Apart from excluding FD, platform layout is secondary: prioritize as much horizontal space as possible to stay far away from them.",
+    summary: "Squirtle is very volatile here: his usual combos do not work, so playing him normally does not work. Keep interactions quick and be willing to trade. Ivysaur has very strong advantage, but be careful with startup clashes and landing on top of Ice Climbers. Charizard may be one of the best all-around choices for neutral.",
+    winCondition: "Favor Charizard for general neutral and use Ivysaur for his strong advantage. If using Squirtle, camp and avoid close quarters; look for Water Gun cheese, especially by switching from Charizard to Squirtle for an edgeguard rather than staying in Squirtle neutral. Look for cheese with Ivysaur too, but avoid jumping on top of Ice Climbers: their Neutral B wins that interaction. Use hard callouts to build a more comfortable lead.",
+    squirtle: {
+      neutral: "Camp and avoid close quarters. Always play for single hits and hit and run. Usual combos do not work: keep interactions quick and look for trades rather than trying to play Squirtle normally. Dash Attack is very punishable. Squirtle's Up B out of shield is very good. When Ice Climbers jump into Side B out of shield, punish it with Water Gun.",
+      advantage: "Water Gun can be very strong against Side B. It is better to play Charizard and switch to Squirtle for the Water Gun edgeguard than to rely on it while already playing Squirtle in neutral.",
+      disadvantage: ""
+    },
+    ivysaur: {
+      neutral: "Ivysaur is very strong, but Ice Climbers' Down B can interrupt his startup. Be very careful in startup clashes. Avoid jumping on top of them: their Neutral B wins that interaction.",
+      advantage: "Very, very strong advantage. Look for opportunities to cheese stocks.",
+      disadvantage: "Be careful when landing on top of Ice Climbers: they can defend themselves with Down B."
+    },
+    charizard: {
+      neutral: "Potentially one of the best Pokemon for this matchup's neutral overall. Hard callouts can help build a more comfortable lead.",
+      advantage: "Switch to Squirtle when there is an opportunity to edgeguard Side B with Water Gun. Charizard's Flare Blitz almost always kills Nana, even when she is shielding.",
+      disadvantage: ""
+    }
+  },
   sheik: createEmptyMatchup("Sheik", 6),
   zelda: createEmptyMatchup("Zelda", 6),
   "dr-mario": createEmptyMatchup("Dr Mario", 8),

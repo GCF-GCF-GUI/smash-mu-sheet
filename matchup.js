@@ -16,6 +16,7 @@ if (!entry) {
   document.getElementById("character-name").textContent = entry.name;
   document.getElementById("summary").textContent = entry.summary;
   document.getElementById("win-condition").textContent = entry.winCondition || "Not added yet.";
+  document.getElementById("stage-picks").textContent = entry.stagePicks || "Not added yet.";
 
   const hitboxImage = document.getElementById("hitbox-image");
   hitboxImage.src = entry.hitboxImage;
