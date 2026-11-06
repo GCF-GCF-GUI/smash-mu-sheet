@@ -6,6 +6,7 @@ function createEmptyMatchup(name, score = 5) {
     summary: "",
     winCondition: "",
     stagePicks: "",
+    gimmicks: { forMe: [], againstMe: [] },
     hitboxImage: `images/hitboxes/${name.toLowerCase().replaceAll(" ", "-")}.png`,
 
     squirtle: { neutral: "", advantage: "", disadvantage: "" },
@@ -30,7 +31,13 @@ const data = {
   kirby: createEmptyMatchup("Kirby", 8),
   fox: createEmptyMatchup("Fox", 6),
   pikachu: createEmptyMatchup("Pikachu", 4),
-  luigi: createEmptyMatchup("Luigi", 7),
+  luigi: {
+    ...createEmptyMatchup("Luigi", 7),
+    gimmicks: {
+      forMe: [],
+      againstMe: ["Everything is negative on hit. Do not try to press advantage."]
+    }
+  },
   ness: createEmptyMatchup("Ness", 7),
   "captain-falcon": createEmptyMatchup("Captain Falcon", 7),
   jigglypuff: {
@@ -54,6 +61,10 @@ const data = {
   bowser: createEmptyMatchup("Bowser", 7),
   "ice-climbers": {
     ...createEmptyMatchup("Ice Climbers", 3),
+    gimmicks: {
+      forMe: [],
+      againstMe: ["Everything is negative on hit. Do not try to press advantage."]
+    },
     stagePicks: "Avoid Final Destination (FD): it does not work in this matchup either. Among the remaining stages, always pick the longest available and maximize the distance from Ice Climbers. Apart from excluding FD, platform layout is secondary: prioritize as much horizontal space as possible to stay far away from them.",
     summary: "Squirtle is very volatile here: his usual combos do not work, so playing him normally does not work. Keep interactions quick and be willing to trade. Ivysaur has very strong advantage, but be careful with startup clashes and landing on top of Ice Climbers. Charizard may be one of the best all-around choices for neutral.",
     winCondition: "Favor Charizard for general neutral and use Ivysaur for his strong advantage. If using Squirtle, camp and avoid close quarters; look for Water Gun cheese, especially by switching from Charizard to Squirtle for an edgeguard rather than staying in Squirtle neutral. Look for cheese with Ivysaur too, but avoid jumping on top of Ice Climbers: their Neutral B wins that interaction. Use hard callouts to build a more comfortable lead.",
@@ -174,7 +185,17 @@ const data = {
   joker: createEmptyMatchup("Joker", 4),
   hero: createEmptyMatchup("Hero", 6),
   "banjo-kazooie": createEmptyMatchup("Banjo Kazooie", 7),
-  terry: createEmptyMatchup("Terry", 6),
+  terry: {
+    ...createEmptyMatchup("Terry", 6),
+    gimmicks: {
+      forMe: [],
+      againstMe: [
+        "When Terry mashes Down Tilt on a platform, do not try to challenge him: you can die for it.",
+        "Terry's Down Air can kill you during a ledgetrap if you jump from the ledge.",
+        "Everything is negative on hit. Do not try to press advantage."
+      ]
+    }
+  },
   byleth: createEmptyMatchup("Byleth", 6),
   "min-min": {
     ...createEmptyMatchup("Min Min", 5),

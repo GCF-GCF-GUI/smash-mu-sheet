@@ -18,6 +18,18 @@ if (!entry) {
   document.getElementById("win-condition").textContent = entry.winCondition || "Not added yet.";
   document.getElementById("stage-picks").textContent = entry.stagePicks || "Not added yet.";
 
+  for (const [id, gimmicks] of [
+    ["gimmicks-for", entry.gimmicks.forMe],
+    ["gimmicks-against", entry.gimmicks.againstMe]
+  ]) {
+    const list = document.getElementById(id);
+    for (const text of gimmicks.length ? gimmicks : ["Not added yet."]) {
+      const item = document.createElement("li");
+      item.textContent = text;
+      list.appendChild(item);
+    }
+  }
+
   const hitboxImage = document.getElementById("hitbox-image");
   hitboxImage.src = entry.hitboxImage;
   hitboxImage.alt = `${entry.name} hitboxes`;
