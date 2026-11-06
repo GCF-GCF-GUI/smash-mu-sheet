@@ -140,7 +140,15 @@ const data = {
   "banjo-kazooie": createEmptyMatchup("Banjo Kazooie", 7),
   terry: createEmptyMatchup("Terry", 6),
   byleth: createEmptyMatchup("Byleth", 6),
-  "min-min": createEmptyMatchup("Min Min", 5),
+  "min-min": {
+    ...createEmptyMatchup("Min Min", 5),
+    winCondition: "Always, always avoid Ivysaur in neutral and disadvantage. Favor Squirtle in those situations and look to win through his offstage pressure.",
+    squirtle: {
+      neutral: "",
+      advantage: "The question to win is: how does Min Min avoid Squirtle's Fair/Bair offstage? If the answer is 'early jump and cover yourself with an arm', Water Gun beats that hard. Since she needs to cover herself preemptively to return to the stage, fake going offstage for a Fair to bait the preemptive arm, then punish it with Water Gun.",
+      disadvantage: ""
+    }
+  },
   steve: createEmptyMatchup("Steve", 6),
   sephiroth: createEmptyMatchup("Sephiroth", 7),
   "pyra-mythra": createEmptyMatchup("Pyra Mythra", 5),
