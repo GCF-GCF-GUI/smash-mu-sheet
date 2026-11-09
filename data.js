@@ -204,8 +204,24 @@ const data = {
       againstMe: [
         "When Terry mashes Down Tilt on a platform, do not try to challenge him: you can die for it.",
         "Terry's Down Air can kill you during a ledgetrap if you jump from the ledge.",
-        "Everything is negative on hit. Do not try to press advantage."
+        "Everything is negative on hit. Do not try to press advantage.",
+        "With GO active, Terry can mash Down B to escape your confirms."
       ]
+    },
+    squirtle: {
+      neutral: "Once you have landed a few combos, do not keep playing Squirtle neutral: switch early to Ivysaur or Charizard to improve survivability. If Terry is already around 80% or at edgeguard percents, Squirtle has done his job. Squirtle dies too early to random hits.",
+      advantage: "",
+      disadvantage: ""
+    },
+    ivysaur: {
+      neutral: "",
+      advantage: "Extend advantage as far as possible. Make every opening count and get as much out of it as you can.",
+      disadvantage: ""
+    },
+    charizard: {
+      neutral: "",
+      advantage: "Extend advantage as far as possible. Make every opening count and get as much out of it as you can.",
+      disadvantage: ""
     }
   },
   byleth: createEmptyMatchup("Byleth", 6),
