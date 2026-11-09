@@ -214,7 +214,7 @@ const data = {
       disadvantage: ""
     },
     ivysaur: {
-      neutral: "",
+      neutral: "Ivysaur's pivot grab is extremely strong because Terry extends his hurtbox a lot. It is very, very good for catching him mashing in place or mashing aerials.",
       advantage: "Extend advantage as far as possible. Make every opening count and get as much out of it as you can.",
       disadvantage: ""
     },
