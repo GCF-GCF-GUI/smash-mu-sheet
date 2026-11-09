@@ -122,7 +122,19 @@ const data = {
   squirtle: createEmptyMatchup("Squirtle", 8),
   ivysaur: createEmptyMatchup("Ivysaur", 8),
   charizard: createEmptyMatchup("Charizard", 8),
-  "diddy-kong": createEmptyMatchup("Diddy Kong", 6),
+  "diddy-kong": {
+    ...createEmptyMatchup("Diddy Kong", 6),
+    winCondition: "Diddy's win condition is to force you to shield, because his Side B and grabs are then unreactable. Do not give him shield for free just because he is moving around you. Counter his movement with your own movement instead.",
+    gimmicks: {
+      forMe: ["Charizard's Neutral B at the ledge is good against Diddy when he has no double jump, or against a masher who always uses double jump as soon as possible."],
+      againstMe: ["Diddy uses run back instead of spot dodge. Run back into Dash Attack and run back into Side B are simply better than spot dodge."]
+    },
+    squirtle: {
+      neutral: "Do not give Diddy shield for free just because he is moving around you. His goal is to force you to shield, then threaten unreactable Side B and grabs. Counter his movement with your own movement instead.",
+      advantage: "",
+      disadvantage: ""
+    }
+  },
   lucas: createEmptyMatchup("Lucas", 2),
   sonic: {
     ...createEmptyMatchup("Sonic", 3),
