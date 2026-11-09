@@ -124,7 +124,18 @@ const data = {
   charizard: createEmptyMatchup("Charizard", 8),
   "diddy-kong": createEmptyMatchup("Diddy Kong", 6),
   lucas: createEmptyMatchup("Lucas", 2),
-  sonic: createEmptyMatchup("Sonic", 3),
+  sonic: {
+    ...createEmptyMatchup("Sonic", 3),
+    gimmicks: {
+      forMe: ["Spam spot dodge to mess with Sonic's Neutral B."],
+      againstMe: []
+    },
+    squirtle: {
+      neutral: "Drift-back aerials are always the answer to Sonic's Side B or Down B, especially when you have the lead. Always drift back and time the aerial as close to the ground as possible. Always do this out of a full hop too.",
+      advantage: "",
+      disadvantage: ""
+    }
+  },
   "king-dedede": createEmptyMatchup("King Dedede", 6),
   olimar: createEmptyMatchup("Olimar", 5),
   lucario: createEmptyMatchup("Lucario", 6),
