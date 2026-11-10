@@ -63,6 +63,11 @@ const data = {
     gimmicks: {
       forMe: [],
       againstMe: ["Almost everything is negative on hit, so Bowser spamming Up B while grounded can interrupt your combos."]
+    },
+    charizard: {
+      neutral: "",
+      advantage: "Bair is broken against Bowser's recovery, and Neutral B is too. Charizard is actually very strong in advantage in this matchup.",
+      disadvantage: ""
     }
   },
   "ice-climbers": {
