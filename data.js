@@ -210,6 +210,7 @@ const data = {
   "banjo-kazooie": createEmptyMatchup("Banjo Kazooie", 7),
   terry: {
     ...createEmptyMatchup("Terry", 6),
+    winCondition: "This is a losing matchup, not a winning one. Terry has better neutral and better advantage, but he also explodes when you get your own advantage going. Ivysaur can kill him very early, especially on small stages: go for that win condition whenever possible. Make your openings explosive enough to keep up, then play safe. Blow him up and play safe.",
     summary: "The goal of the game is to kill your opponent and not get killed. Terry is an animal. All he does is jump on top of you, and when he is in trouble, he presses as many buttons as possible. It will work. These players are not rewarded for skill. What do you need to do? Humiliate these people. Play like you hate him, safely, as if he were sick and you were in quarantine. Protect yourself and always attack the space he is moving into, because he is going to mash. He will always mash.",
     gimmicks: {
       forMe: [],
