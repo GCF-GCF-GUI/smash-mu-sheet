@@ -146,7 +146,7 @@ const data = {
       againstMe: ["Diddy uses run back instead of spot dodge. Run back into Dash Attack and run back into Side B are simply better than spot dodge."]
     },
     squirtle: {
-      neutral: "Do not give Diddy shield for free just because he is moving around you. His goal is to force you to shield, then threaten unreactable Side B and grabs. Counter his movement with your own movement instead. Not all close-quarters characters have the same range: Diddy's Nair is huge. In aerial scrambles, you will probably whiff a move while he mashes Nair and hits you, which is very frustrating. If you are underneath him, use Up B: that is the answer in this situation. Be preemptive, or, if you are grounded, aim your Up B carefully.",
+      neutral: "Play fortress/turtle neutral. Be very patient, stay grounded and turtle with Water Gun to avoid messy scrambles. Use F-tilt to pick up banana. Do not give Diddy shield for free just because he is moving around you. His goal is to force you to shield, then threaten unreactable Side B and grabs. Counter his movement with your own movement instead. Not all close-quarters characters have the same range: Diddy's Nair is huge. In aerial scrambles, you will probably whiff a move while he mashes Nair and hits you, which is very frustrating. If you are underneath him, use Up B: that is the answer in this situation. Be preemptive, or, if you are grounded, aim your Up B carefully.",
       advantage: "",
       disadvantage: ""
     }
