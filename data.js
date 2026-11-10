@@ -223,7 +223,11 @@ const data = {
   "piranha-plant": createEmptyMatchup("Piranha Plant", 7),
   joker: {
     ...createEmptyMatchup("Joker", 4),
-    winCondition: "Two-framing Joker's recovery with Arsene is one of your win conditions. Pay close attention and keep asking yourself: how is he avoiding my two-frames? Observe his choices and find the answer. Joker is very hard to hit, so it is also essential to identify how he avoids your attacks: dash back, jump, full hop, double jump, or something else. Watch what he actually does and work out how to catch it."
+    winCondition: "Two-framing Joker's recovery with Arsene is one of your win conditions. Pay close attention and keep asking yourself: how is he avoiding my two-frames? Observe his choices and find the answer. Joker is very hard to hit, so it is also essential to identify how he avoids your attacks: dash back, jump, full hop, double jump, or something else. Watch what he actually does and work out how to catch it.",
+    gimmicks: {
+      forMe: [],
+      againstMe: ["Joker can just spam double jump in disadvantage for free. Trying to hit him is very risky: his hurtbox seems to disappear and his jump is high. Expect repeated jumps as his escape option: jump, jump, jump, jump."]
+    }
   },
   hero: createEmptyMatchup("Hero", 6),
   "banjo-kazooie": createEmptyMatchup("Banjo Kazooie", 7),
