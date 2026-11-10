@@ -62,7 +62,10 @@ const data = {
     ...createEmptyMatchup("Bowser", 7),
     gimmicks: {
       forMe: [],
-      againstMe: ["Almost everything is negative on hit, so Bowser spamming Up B while grounded can interrupt your combos."]
+      againstMe: [
+        "Almost everything is negative on hit, so Bowser spamming Up B while grounded can interrupt your combos.",
+        "Watch out for Bowser's fucking dash grab: the overshoot is insane."
+      ]
     },
     charizard: {
       neutral: "",
