@@ -101,7 +101,14 @@ const data = {
   pit: createEmptyMatchup("Pit", 6),
   "dark-pit": createEmptyMatchup("Dark Pit", 6),
   "zero-suit-samus": createEmptyMatchup("Zero Suit Samus", 6),
-  wario: createEmptyMatchup("Wario", 7),
+  wario: {
+    ...createEmptyMatchup("Wario", 7),
+    ivysaur: {
+      neutral: "Be careful using Side B (Razor Leaf): Wario can jump over it, mash and drift all the way toward you without thinking, then hit you with Waft and kill you.",
+      advantage: "",
+      disadvantage: ""
+    }
+  },
   snake: {
     ...createEmptyMatchup("Snake", 7),
     summary: "Avoid using Squirtle. Only partially charge Water Gun at the start, then play Ivysaur as much as possible.",
