@@ -270,7 +270,13 @@ const data = {
       disadvantage: ""
     }
   },
-  steve: createEmptyMatchup("Steve", 6),
+  steve: {
+    ...createEmptyMatchup("Steve", 6),
+    gimmicks: {
+      forMe: [],
+      againstMe: ["After an offstage combo, Steve can overextend with Minecart or blocks to get more double jumps, and even use Elytra to gimp you. Be especially careful when you are behind in stocks: he can use this to go for a suicide kill."]
+    }
+  },
   sephiroth: createEmptyMatchup("Sephiroth", 7),
   "pyra-mythra": createEmptyMatchup("Pyra Mythra", 5),
   kazuya: createEmptyMatchup("Kazuya", 2)
