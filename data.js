@@ -58,7 +58,13 @@ const data = {
   },
   peach: createEmptyMatchup("Peach", 6),
   daisy: createEmptyMatchup("Daisy", 6),
-  bowser: createEmptyMatchup("Bowser", 7),
+  bowser: {
+    ...createEmptyMatchup("Bowser", 7),
+    gimmicks: {
+      forMe: [],
+      againstMe: ["Almost everything is negative on hit, so Bowser spamming Up B while grounded can interrupt your combos."]
+    }
+  },
   "ice-climbers": {
     ...createEmptyMatchup("Ice Climbers", 3),
     gimmicks: {
