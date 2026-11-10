@@ -274,7 +274,10 @@ const data = {
     ...createEmptyMatchup("Steve", 6),
     gimmicks: {
       forMe: [],
-      againstMe: ["After an offstage combo, Steve can overextend with Minecart or blocks to get more double jumps, and even use Elytra to gimp you. Be especially careful when you are behind in stocks: he can use this to go for a suicide kill."]
+      againstMe: [
+        "After an offstage combo, Steve can overextend with Minecart or blocks to get more double jumps, and even use Elytra to gimp you. Be especially careful when you are behind in stocks: he can use this to go for a suicide kill.",
+        "This character is Mickey Mouse and can kill whenever he wants. If you are above 70%, be very careful with roll-in spam."
+      ]
     }
   },
   sephiroth: createEmptyMatchup("Sephiroth", 7),
