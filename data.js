@@ -140,7 +140,7 @@ const data = {
   charizard: createEmptyMatchup("Charizard", 8),
   "diddy-kong": {
     ...createEmptyMatchup("Diddy Kong", 6),
-    winCondition: "Diddy's win condition is to force you to shield, because his Side B and grabs are then unreactable. Do not give him shield for free just because he is moving around you. Counter his movement with your own movement instead.",
+    winCondition: "This is a losing matchup, and that is okay. Diddy is very hard to hit, but he is light: make sure some of your hits are strong enough to make him explode. Do not overextend. Protect yourself and apply pressure so he cannot move around for free. Eventually, a callout on his movement can blow him up. No stress. Diddy's win condition is to force you to shield, because his Side B and grabs are then unreactable. Do not give him shield for free just because he is moving around you. Counter his movement with your own movement instead.",
     gimmicks: {
       forMe: ["Charizard's Neutral B at the ledge is good against Diddy when he has no double jump, or against a masher who always uses double jump as soon as possible."],
       againstMe: ["Diddy uses run back instead of spot dodge. Run back into Dash Attack and run back into Side B are simply better than spot dodge."]
