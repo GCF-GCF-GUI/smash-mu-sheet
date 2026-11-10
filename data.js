@@ -85,7 +85,16 @@ const data = {
     }
   },
   sheik: createEmptyMatchup("Sheik", 6),
-  zelda: createEmptyMatchup("Zelda", 6),
+  zelda: {
+    ...createEmptyMatchup("Zelda", 6),
+    gimmicks: {
+      forMe: [],
+      againstMe: [
+        // Frame data source: https://ultimateframedata.com/zelda
+        "Zelda's Up B out of shield kills Squirtle at 60%. The first hit starts on frame 6 and is active on frames 6-7 (Ultimate Frame Data)."
+      ]
+    }
+  },
   "dr-mario": createEmptyMatchup("Dr Mario", 8),
   pichu: createEmptyMatchup("Pichu", 4),
   falco: createEmptyMatchup("Falco", 5),
