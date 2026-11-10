@@ -221,7 +221,10 @@ const data = {
   isabelle: createEmptyMatchup("Isabelle", 7),
   incineroar: createEmptyMatchup("Incineroar", 7),
   "piranha-plant": createEmptyMatchup("Piranha Plant", 7),
-  joker: createEmptyMatchup("Joker", 4),
+  joker: {
+    ...createEmptyMatchup("Joker", 4),
+    winCondition: "Two-framing Joker's recovery with Arsene is one of your win conditions. Pay close attention and keep asking yourself: how is he avoiding my two-frames? Observe his choices and find the answer. Joker is very hard to hit, so it is also essential to identify how he avoids your attacks: dash back, jump, full hop, double jump, or something else. Watch what he actually does and work out how to catch it."
+  },
   hero: createEmptyMatchup("Hero", 6),
   "banjo-kazooie": createEmptyMatchup("Banjo Kazooie", 7),
   terry: {
