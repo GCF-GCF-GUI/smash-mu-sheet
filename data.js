@@ -256,6 +256,10 @@ const data = {
   },
   ken: {
     ...createEmptyMatchup("Ken", 4),
+    gimmicks: {
+      forMe: [],
+      againstMe: ["He only wants Down Tilt. He only wants Down Tilt, and he gets everything off Down Tilt. If he does not want Down Tilt, he wants some quirky aerial while facing away that, for some reason, combos into Down Tilt."]
+    },
     summary: "These characters kill off Down Tilt, and Down Tilt is safe on shield. Be very careful with shield usage: my habit of running in and shielding gives me absolutely nothing. I have to defend preemptively against run-up Down Tilt. Always ask myself: how do I hit him, or when will he use run-up Down Tilt so I can punish safely? This must always be the question in my head. Always. Ken will always hold forward and overshoot everything. Protect yourself against the overshoot. Switch early to Ivysaur and Charizard and look for kills rather than getting stuck on Squirtle, unable to kill.",
     winCondition: "Switch early to Ivysaur and Charizard to look for kills instead of getting stuck on Squirtle. Ivysaur and Charizard advantage: extend, extend, extend, extend. Squirtle advantage: Water Gun, Water Gun, Water Gun, Water Gun.",
     squirtle: {
