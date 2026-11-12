@@ -37,6 +37,7 @@ const data = {
   pikachu: createEmptyMatchup("Pikachu", 4),
   luigi: {
     ...createEmptyMatchup("Luigi", 7),
+    summary: "The goal of the game is to kill your opponent and not get killed. Luigi is an animal, a toddler. He does not think about anything: he only wants grabs. Grabs, grabs, grabs. He has never had a thought in his entire life. These players are not rewarded for skill. Play like you hate him, safely, as if he were sick and you were in quarantine. Protect yourself and play around the fact that he only wants grab. But poking him is not always the answer either: everything is negative on hit, and I get fucked for it. I need to find a balance between playing around his grab and choosing when to poke, instead of getting frustrated. Stay disciplined and do not let anger make the next decision.",
     winCondition: "Do not get tilted. Whatever happens, do not get tilted. This character is made for toddlers, for fucking children. Since he is made for toddlers, play like a disciplined parent: stay composed and give Luigi a spanking in-game.",
     gimmicks: {
       forMe: [],
