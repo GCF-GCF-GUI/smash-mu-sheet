@@ -203,7 +203,10 @@ const data = {
   summary: "Hard Matchup, but not unwinnable. Avoid losing neutral while horizontal, but don't stress when you're hit. Remember, you need to play like a 'Luigi' that is turtling. You must slowly approach, and when you do, extend advantage as far as you can. Use the best offstage and the best ledgetraps. Play the Down Tilt minigame: whenever ROB mashes Down Tilt, always ask yourself what his rhythm is and which option he chooses afterward. Use that information about the human player to adapt and counter his habits; otherwise, Down Tilt will run you over.",
   gimmicks: {
     forMe: [],
-    againstMe: ["Down Tilt minigame: when ROB mashes Down Tilt, always ask yourself: what is his rhythm, and what option does he choose afterward? Use that information about the human player to play against his habits. Otherwise, Down Tilt will run you over."]
+    againstMe: [
+      "Down Tilt minigame: when ROB mashes Down Tilt, always ask yourself: what is his rhythm, and what option does he choose afterward? Use that information about the human player to play against his habits. Otherwise, Down Tilt will run you over.",
+      "If Gyro is offstage, preemptive Squirtle Up B (Waterfall) will not work."
+    ]
   },
   winCondition: "Favor Squirtle for patient neutral: approach slowly, frustrate ROB and punish overextensions. Learn his Nair timing and turn each opening into extended advantage and offstage pressure. Use Ivysaur to keep advantage going and look for kills; use Charizard to keep ROB at the ledge with Flamethrower and bait his escape options to close stocks. Keep Charizard's neutral to short, safe bursts rather than extended projectile exchanges.",
 
