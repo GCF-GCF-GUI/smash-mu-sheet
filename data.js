@@ -169,7 +169,10 @@ const data = {
       disadvantage: ""
     }
   },
-  lucas: createEmptyMatchup("Lucas", 2),
+  lucas: {
+    ...createEmptyMatchup("Lucas", 2),
+    winCondition: "Small mistakes cost a huge amount in this matchup. Lucas is hard to hit and gets reversals very easily. Avoid small mistakes whenever possible. I have to avoid small mistakes."
+  },
   sonic: {
     ...createEmptyMatchup("Sonic", 3),
     gimmicks: {
