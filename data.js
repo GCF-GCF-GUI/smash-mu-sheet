@@ -256,7 +256,7 @@ const data = {
   },
   ken: {
     ...createEmptyMatchup("Ken", 4),
-    summary: "These characters kill off Down Tilt, and Down Tilt is safe on shield. Be very careful with shield usage: my habit of running in and shielding gives me absolutely nothing. I have to defend preemptively against run-up Down Tilt. Always ask myself: how do I hit him, or when will he use run-up Down Tilt so I can punish safely? This must always be the question in my head. Always."
+    summary: "These characters kill off Down Tilt, and Down Tilt is safe on shield. Be very careful with shield usage: my habit of running in and shielding gives me absolutely nothing. I have to defend preemptively against run-up Down Tilt. Always ask myself: how do I hit him, or when will he use run-up Down Tilt so I can punish safely? This must always be the question in my head. Always. Ken will always hold forward and overshoot everything. Protect yourself against the overshoot."
   },
   cloud: createEmptyMatchup("Cloud", 5),
   corrin: createEmptyMatchup("Corrin", 6),
