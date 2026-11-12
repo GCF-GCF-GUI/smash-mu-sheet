@@ -37,6 +37,7 @@ const data = {
   pikachu: createEmptyMatchup("Pikachu", 4),
   luigi: {
     ...createEmptyMatchup("Luigi", 7),
+    winCondition: "Do not get tilted. Whatever happens, do not get tilted. This character is made for toddlers, for fucking children. Since he is made for toddlers, play like a disciplined parent: stay composed and give Luigi a spanking in-game.",
     gimmicks: {
       forMe: [],
       againstMe: ["Everything is negative on hit. Do not try to press advantage."]
