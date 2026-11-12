@@ -77,7 +77,10 @@ const data = {
     ...createEmptyMatchup("Ice Climbers", 3),
     gimmicks: {
       forMe: [],
-      againstMe: ["Everything is negative on hit. Do not try to press advantage."]
+      againstMe: [
+        "Everything is negative on hit. Do not try to press advantage.",
+        "Down B is stupidly strong and beats everything, but usually only becomes broken when they alternate it with a desync or set it up while falling from above. Ivysaur's rising Fair is a good way to stop the move's setup. Use spaced Fair to break the setup before it gets going."
+      ]
     },
     stagePicks: "Avoid Final Destination (FD): it does not work in this matchup either. Among the remaining stages, always pick the longest available and maximize the distance from Ice Climbers. Apart from excluding FD, platform layout is secondary: prioritize as much horizontal space as possible to stay far away from them.",
     summary: "Squirtle is very volatile here: his usual combos do not work, so playing him normally does not work. Keep interactions quick and be willing to trade. Ivysaur has very strong advantage, but be careful with startup clashes and landing on top of Ice Climbers. Charizard may be one of the best all-around choices for neutral.",
@@ -88,7 +91,7 @@ const data = {
       disadvantage: ""
     },
     ivysaur: {
-      neutral: "Ivysaur is very strong, but Ice Climbers' Down B can interrupt his startup. Be very careful in startup clashes. Avoid jumping on top of them: their Neutral B wins that interaction.",
+      neutral: "Ivysaur is very strong, but Ice Climbers' Down B can interrupt his startup. Be very careful in startup clashes. Down B usually becomes broken when they alternate it with a desync or set it up while falling from above. Rising Fair is a good option to stop its startup: use spaced Fair to break their setup before it gets going. Avoid jumping on top of them: their Neutral B wins that interaction.",
       advantage: "Very, very strong advantage. Look for opportunities to cheese stocks.",
       disadvantage: "Be careful when landing on top of Ice Climbers: they can defend themselves with Down B."
     },
