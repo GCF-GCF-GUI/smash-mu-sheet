@@ -234,7 +234,13 @@ const data = {
   villager: createEmptyMatchup("Villager", 5),
   "mega-man": createEmptyMatchup("Mega Man", 5),
   "wii-fit-trainer": createEmptyMatchup("Wii Fit Trainer", 5),
-  "rosalina-and-luma": createEmptyMatchup("Rosalina and Luma", 4),
+  "rosalina-and-luma": {
+    ...createEmptyMatchup("Rosalina and Luma", 4),
+    gimmicks: {
+      forMe: ["Ivysaur's Razor Leaf is very good for disrupting Rosalina and Luma's game plan and killing Luma."],
+      againstMe: []
+    }
+  },
   "little-mac": createEmptyMatchup("Little Mac", 4),
   greninja: createEmptyMatchup("Greninja", 5),
   mii: createEmptyMatchup("Mii Fighter", 3),
