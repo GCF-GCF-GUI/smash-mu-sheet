@@ -171,7 +171,11 @@ const data = {
   },
   lucas: {
     ...createEmptyMatchup("Lucas", 2),
-    winCondition: "Small mistakes cost a huge amount in this matchup. Lucas is hard to hit and gets reversals very easily. Avoid small mistakes whenever possible. I have to avoid small mistakes."
+    winCondition: "Small mistakes cost a huge amount in this matchup. Lucas is hard to hit and gets reversals very easily. Avoid small mistakes whenever possible. I have to avoid small mistakes.",
+    gimmicks: {
+      forMe: [],
+      againstMe: ["Do not try to hit him. It feels like Lucas has no hurtbox: trying to hit him is not worth it. Do not force it."]
+    }
   },
   sonic: {
     ...createEmptyMatchup("Sonic", 3),
