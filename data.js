@@ -256,7 +256,22 @@ const data = {
   },
   ken: {
     ...createEmptyMatchup("Ken", 4),
-    summary: "These characters kill off Down Tilt, and Down Tilt is safe on shield. Be very careful with shield usage: my habit of running in and shielding gives me absolutely nothing. I have to defend preemptively against run-up Down Tilt. Always ask myself: how do I hit him, or when will he use run-up Down Tilt so I can punish safely? This must always be the question in my head. Always. Ken will always hold forward and overshoot everything. Protect yourself against the overshoot."
+    summary: "These characters kill off Down Tilt, and Down Tilt is safe on shield. Be very careful with shield usage: my habit of running in and shielding gives me absolutely nothing. I have to defend preemptively against run-up Down Tilt. Always ask myself: how do I hit him, or when will he use run-up Down Tilt so I can punish safely? This must always be the question in my head. Always. Ken will always hold forward and overshoot everything. Protect yourself against the overshoot.",
+    squirtle: {
+      neutral: "",
+      advantage: "Use multi-hit moves. Watch out for Focus spam: remember that only multi-hits break through Focus.",
+      disadvantage: ""
+    },
+    ivysaur: {
+      neutral: "",
+      advantage: "Use multi-hit moves. Watch out for Focus spam: remember that only multi-hits break through Focus.",
+      disadvantage: ""
+    },
+    charizard: {
+      neutral: "",
+      advantage: "Watch out for Focus spam: remember that only multi-hits break through Focus. Use Flame Breath for its multiple hits.",
+      disadvantage: ""
+    }
   },
   cloud: createEmptyMatchup("Cloud", 5),
   corrin: createEmptyMatchup("Corrin", 6),
