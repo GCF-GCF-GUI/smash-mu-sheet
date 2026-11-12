@@ -1,5 +1,6 @@
 const params = new URLSearchParams(window.location.search);
-const characterKey = params.get("char");
+const requestedKey = params.get("char");
+const characterKey = matchupAliases[requestedKey] || requestedKey;
 
 const entry = data[characterKey];
 

@@ -31,6 +31,7 @@ characters.forEach((character) => {
   }
 
   character.addEventListener("click", () => {
-    window.location.href = `matchup.html?char=${key}`;
+    const matchupKey = matchupAliases[key] || key;
+    window.location.href = `matchup.html?char=${matchupKey}`;
   });
 });

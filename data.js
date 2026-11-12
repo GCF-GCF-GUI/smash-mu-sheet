@@ -21,12 +21,16 @@ function createEmptyMatchup(name, score = 5) {
   };
 }
 
+const matchupAliases = { "dark-samus": "samus" };
+
 const data = {
   mario: createEmptyMatchup("Mario", 7),
   "donkey-kong": createEmptyMatchup("Donkey Kong", 7),
   link: createEmptyMatchup("Link", 6),
-  samus: createEmptyMatchup("Samus", 4),
-  "dark-samus": createEmptyMatchup("Dark Samus", 4),
+  samus: {
+    ...createEmptyMatchup("Samus", 4),
+    name: "Samus / Dark Samus"
+  },
   yoshi: createEmptyMatchup("Yoshi", 6),
   kirby: createEmptyMatchup("Kirby", 8),
   fox: createEmptyMatchup("Fox", 6),
@@ -309,3 +313,7 @@ const data = {
   "pyra-mythra": createEmptyMatchup("Pyra Mythra", 5),
   kazuya: createEmptyMatchup("Kazuya", 2)
 };
+
+for (const [alias, key] of Object.entries(matchupAliases)) {
+  data[alias] = data[key];
+}
