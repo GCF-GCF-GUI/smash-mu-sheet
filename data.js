@@ -82,7 +82,7 @@ const data = {
   "ice-climbers": {
     ...createEmptyMatchup("Ice Climbers", 3),
     gimmicks: {
-      forMe: [],
+      forMe: ["Charizard's Neutral B kills Ice Climbers offstage."],
       againstMe: [
         "Everything is negative on hit. Do not try to press advantage.",
         "Down B is stupidly strong and beats everything, but usually only becomes broken when they alternate it with a desync or set it up while falling from above. Ivysaur's rising Fair is a good way to stop the move's setup. Use spaced Fair to break the setup before it gets going.",
@@ -90,8 +90,8 @@ const data = {
       ]
     },
     stagePicks: "Avoid Final Destination (FD): it does not work in this matchup either. Among the remaining stages, always pick the longest available and maximize the distance from Ice Climbers. Apart from excluding FD, platform layout is secondary: prioritize as much horizontal space as possible to stay far away from them.",
-    summary: "Squirtle is very volatile here: his usual combos do not work, so playing him normally does not work. Keep interactions quick and be willing to trade. Ivysaur has very strong advantage, but be careful with startup clashes and landing on top of Ice Climbers. Charizard may be one of the best all-around choices for neutral. Soft hits, low-knockback hits, reversals out of disadvantage and combo breaks reveal a lot about a player's identity. My tendency is to get frustrated, so the goal is to stay calm no matter how many combo breaks, combo drops or instances of Down B chip damage happen. Accept that these are part of the game. Never let frustration over those interactions drive the next decision.",
-    winCondition: "Favor Charizard for general neutral and use Ivysaur for his strong advantage. If using Squirtle, camp and avoid close quarters; look for Water Gun cheese, especially by switching from Charizard to Squirtle for an edgeguard rather than staying in Squirtle neutral. Look for cheese with Ivysaur too, but avoid jumping on top of Ice Climbers: their Neutral B wins that interaction. Use hard callouts to build a more comfortable lead.",
+    summary: "CHARIZARD IS THE ANSWER. Start Charizard. Use Charizard. He is the main game plan for this matchup. In advantage, use double jump into Bair to kill absurdly early, punish Side B on reaction with Flare Blitz, and use Neutral B to kill them offstage. Squirtle is very volatile here: his usual combos do not work, so playing him normally does not work. If you use him, keep interactions quick. Ivysaur has strong advantage, but be careful with startup clashes and landing on top of Ice Climbers. Soft hits, low-knockback hits, reversals out of disadvantage and combo breaks reveal a lot about a player's identity. My tendency is to get frustrated, so the goal is to stay calm no matter how many combo breaks, combo drops or instances of Down B chip damage happen. Accept that these are part of the game. Never let frustration over those interactions drive the next decision.",
+    winCondition: "START CHARIZARD. USE CHARIZARD. CHARIZARD IS THE ANSWER. Make him your main Pokemon in this matchup. Extend his advantage: use double jump into Bair to kill very early, punish Side B on reaction with Flare Blitz, and kill them offstage with Neutral B. Use hard callouts to build a more comfortable lead. Squirtle and Ivysaur are situational alternatives, not the main plan.",
     squirtle: {
       neutral: "Camp and avoid close quarters. Always play for single hits and hit and run. Usual combos do not work: keep interactions quick and look for trades rather than trying to play Squirtle normally. Dash Attack is very punishable. Squirtle's Up B out of shield is very good. When Ice Climbers jump into Side B out of shield, punish it with Water Gun.",
       advantage: "Water Gun can be very strong against Side B. It is better to play Charizard and switch to Squirtle for the Water Gun edgeguard than to rely on it while already playing Squirtle in neutral.",
@@ -103,8 +103,8 @@ const data = {
       disadvantage: "Be careful when landing on top of Ice Climbers: they can defend themselves with Down B."
     },
     charizard: {
-      neutral: "Potentially one of the best Pokemon for this matchup's neutral overall. Hard callouts can help build a more comfortable lead.",
-      advantage: "Switch to Squirtle when there is an opportunity to edgeguard Side B with Water Gun. Charizard's Flare Blitz almost always kills Nana, even when she is shielding.",
+      neutral: "START CHARIZARD. USE CHARIZARD. He is the answer and your main Pokemon for neutral in this matchup. Hard callouts can help build a more comfortable lead.",
+      advantage: "Use double jump into Bair to kill very, very early. Punish Side B on reaction with Flare Blitz. Neutral B kills them offstage. Charizard's Flare Blitz almost always kills Nana, even when she is shielding.",
       disadvantage: ""
     }
   },
