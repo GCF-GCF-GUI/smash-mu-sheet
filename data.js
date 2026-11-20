@@ -98,7 +98,7 @@ const data = {
       disadvantage: ""
     },
     ivysaur: {
-      neutral: "Ivysaur is very strong, but Ice Climbers' Down B can interrupt his startup. Be very careful in startup clashes. Down B usually becomes broken when they alternate it with a desync or set it up while falling from above. Rising Fair is a good option to stop its startup: use spaced Fair to break their setup before it gets going. Avoid jumping on top of them: their Neutral B wins that interaction.",
+      neutral: "Ivysaur is very strong, but Ice Climbers' Down B can interrupt his startup. Be very careful in startup clashes. Down B usually becomes broken when they alternate it with a desync or set it up while falling from above. Rising Fair is a good option to stop its startup: use spaced Fair to break their setup before it gets going. Avoid jumping on top of them: their Neutral B wins that interaction. In scrambles, Dair and Up Air are important: they are fast and MEGA disjointed. Bair is also good in these situations.",
       advantage: "Very, very strong advantage. Look for opportunities to cheese stocks.",
       disadvantage: "Be careful when landing on top of Ice Climbers: they can defend themselves with Down B."
     },
