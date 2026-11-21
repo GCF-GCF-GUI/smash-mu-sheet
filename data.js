@@ -293,6 +293,7 @@ const data = {
   "piranha-plant": createEmptyMatchup("Piranha Plant", 7),
   joker: {
     ...createEmptyMatchup("Joker", 4),
+    stagePicks: "Ban Final Destination (FD), Kalos Pokemon League and Pokemon Stadium 2 (PS2). Leave Town and City open.",
     winCondition: "Two-framing Joker's recovery with Arsene is one of your win conditions. Pay close attention and keep asking yourself: how is he avoiding my two-frames? Observe his choices and find the answer. Joker is very hard to hit, so it is also essential to identify how he avoids your attacks: dash back, jump, full hop, double jump, or something else. Watch what he actually does and work out how to catch it.",
     gimmicks: {
       forMe: [],
