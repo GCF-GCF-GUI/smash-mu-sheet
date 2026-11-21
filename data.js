@@ -48,6 +48,10 @@ const data = {
   "captain-falcon": createEmptyMatchup("Captain Falcon", 7),
   jigglypuff: {
     ...createEmptyMatchup("Jigglypuff", 8),
+    gimmicks: {
+      forMe: [],
+      againstMe: ["Sometimes Jigglypuff alternates air dodge and mashing with full drift in, ending up behind you where your smash attacks cannot punish. Space even farther back, F-smash the other way, or use Flare Blitz."]
+    },
     summary: "Ivysaur is broken in this matchup, and Squirtle's Water Gun is broken too.",
     winCondition: "Remember: Jigglypuff is super light, so start looking for kills very early. Favor Ivysaur. Always cover Jigglypuff's approach preemptively and watch how they react. Start the match with Squirtle, charge Water Gun and use it: catching Jigglypuff's Side B sends them very far away. In disadvantage and around the ledge, use lots and lots of tether cancels with Ivysaur.",
     stagePicks: "Jigglypuff likes Smashville, but we can pick it too as long as we are not getting edgeguarded.",
