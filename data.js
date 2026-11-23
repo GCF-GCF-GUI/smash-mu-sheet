@@ -299,15 +299,31 @@ const data = {
   "piranha-plant": createEmptyMatchup("Piranha Plant", 7),
   joker: {
     ...createEmptyMatchup("Joker", 4),
+    summary: "TOP PRIORITY: WALK AND SHIELD WITH A RHYTHM AGAINST GUN. This is the most important part of the matchup, above everything else. Walk, shield, walk, shield. Take away Joker's space and watch how the bot gets stressed. This is especially important with Squirtle: do not forget the walking game plan.",
     stagePicks: "Ban Final Destination (FD), Kalos Pokemon League and Pokemon Stadium 2 (PS2). Leave Town and City open.",
-    winCondition: "Two-framing Joker's recovery with Arsene is one of your win conditions. Pay close attention and keep asking yourself: how is he avoiding my two-frames? Observe his choices and find the answer. Joker is very hard to hit, so it is also essential to identify how he avoids your attacks: dash back, jump, full hop, double jump, or something else. Watch what he actually does and work out how to catch it.",
+    winCondition: "FIRST AND ABOVE EVERYTHING ELSE: WALK AND SHIELD WITH A RHYTHM AGAINST GUN. Take away his space and watch how he reacts under pressure. This is your top priority, especially with Squirtle. Two-framing Joker's recovery with Arsene is another win condition. Pay close attention and keep asking yourself: how is he avoiding my two-frames? Observe his choices and find the answer. Joker is very hard to hit, so it is also essential to identify how he avoids your attacks: dash back, jump, full hop, double jump, or something else. Watch what he actually does and work out how to catch it.",
     gimmicks: {
-      forMe: ["Walking and shielding with a rhythm is one of the best options against Gun. Take away his space and watch how the bot gets stressed."],
+      forMe: ["TOP PRIORITY, ABOVE EVERYTHING ELSE: walk and shield with a rhythm against Gun. Take away his space and watch how the bot gets stressed. Especially important with Squirtle."],
       againstMe: [
         "Gun is broken. For some reason, it hits Squirtle's short hops.",
         "Joker can just spam double jump in disadvantage for free. Trying to hit him is very risky: his hurtbox seems to disappear and his jump is high. Expect repeated jumps as his escape option: jump, jump, jump, jump.",
         "Think of Joker's F-tilt like Charizard's F-tilt: whenever you would expect Charizard to use it, expect Joker to use it too. His is multi-hit, which is why they spam it. Make sure you are not nearby or about to pass through its range during its active window. You can punish with range or out of shield, but shield every hit: do not release shield too early."
       ]
+    },
+    squirtle: {
+      neutral: "WALK AND SHIELD WITH A RHYTHM AGAINST GUN. This is the most important thing, above everything else. Walk, shield, walk, shield. Take away his space and watch how the bot gets stressed. Gun hits your short hops, so remember this walking game plan.",
+      advantage: "",
+      disadvantage: ""
+    },
+    ivysaur: {
+      neutral: "Top priority against Gun: walk and shield with a rhythm. Take away his space and watch how he reacts under pressure.",
+      advantage: "",
+      disadvantage: ""
+    },
+    charizard: {
+      neutral: "Top priority against Gun: walk and shield with a rhythm. Take away his space and watch how he reacts under pressure.",
+      advantage: "",
+      disadvantage: ""
     }
   },
   hero: createEmptyMatchup("Hero", 6),
