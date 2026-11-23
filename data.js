@@ -21,7 +21,7 @@ function createEmptyMatchup(name, score = 5) {
   };
 }
 
-const matchupAliases = { "dark-samus": "samus" };
+const matchupAliases = { "dark-samus": "samus", mii: "mii-brawler" };
 
 const data = {
   mario: createEmptyMatchup("Mario", 7),
@@ -249,7 +249,9 @@ const data = {
   },
   "little-mac": createEmptyMatchup("Little Mac", 4),
   greninja: createEmptyMatchup("Greninja", 5),
-  mii: createEmptyMatchup("Mii Fighter", 3),
+  "mii-brawler": createEmptyMatchup("Mii Brawler", 3),
+  "mii-gunner": createEmptyMatchup("Mii Gunner", 3),
+  "mii-swordfighter": createEmptyMatchup("Mii Swordfighter", 3),
   palutena: createEmptyMatchup("Palutena", 6),
   "pac-man": createEmptyMatchup("Pac-Man", 4),
   robin: createEmptyMatchup("Robin", 6),
