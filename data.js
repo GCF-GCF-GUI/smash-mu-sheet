@@ -124,7 +124,10 @@ const data = {
     }
   },
   "dr-mario": createEmptyMatchup("Dr Mario", 8),
-  pichu: createEmptyMatchup("Pichu", 4),
+  pichu: {
+    ...createEmptyMatchup("Pichu", 4),
+    summary: "Pichu uses Dair a lot. Do not try to rush him down: just apply pressure and wait for him to pull the trigger first."
+  },
   falco: createEmptyMatchup("Falco", 5),
   marth: createEmptyMatchup("Marth", 7),
   lucina: createEmptyMatchup("Lucina", 6),
